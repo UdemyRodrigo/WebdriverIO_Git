@@ -79,6 +79,10 @@ git remote add origin https://github.com/UdemyRodrigo/WebdriverIO_Git.git
 git branch -M Master
 git push -u origin Master
 
+Para instalar los node_modules
+
+npm install
+
 Demo cambio
 
 Correr Jenkins ->  npx wdio run wdio.conf.js --spec  ./test/specs/toExist.js
